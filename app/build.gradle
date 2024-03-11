@@ -9,7 +9,7 @@ android {
     defaultConfig {
         applicationId "com.plcoding.androidlibrary"
         minSdk 21
-        targetSdk 31
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -57,11 +57,15 @@ dependencies {
     implementation "androidx.compose.ui:ui-tooling-preview:$compose_version"
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.1'
     implementation 'androidx.activity:activity-compose:1.3.1'
-    testImplementation 'junit:junit:4.0.0'
+    testImplementation 'junit:junit:4.0'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
 
-    implementation project(':image-preview')
+    //implementation 'com.github.philipplackner:AndroidLibrary:1.0'
+    implementation 'com.github.trinityzhub:AndroidPublicLibrary:1.1'
+
+
+    //implementation project(':image-preview')
 }
