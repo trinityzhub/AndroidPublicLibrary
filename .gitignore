@@ -13,3 +13,10 @@
 .externalNativeBuild
 .cxx
 local.properties
+/.idea/.name
+/.idea/appInsightsSettings.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/kotlinc.xml
+/.idea/migrations.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
