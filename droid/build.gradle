@@ -4,6 +4,16 @@ plugins {
     id 'maven-publish'
 }
 
+
+
+def LIB_GROUP_ID = 'com.github.trinityzhub'
+def LIB_ARTIFACT_ID = 'droid'
+def LIB_DESC = 'droid'
+def LIB_VERSION = '1.8'
+def LIB_URL  = 'https://github.com/trinityzhub/AndroidPublicLibrary'
+
+
+
 android {
     compileSdk 31
 
@@ -11,7 +21,7 @@ android {
         minSdk 21
         targetSdk 33
         versionCode 1
-        versionName "1.2"
+        versionName LIB_VERSION
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -51,20 +61,23 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                groupId = 'com.github.trinityzhub'
-                artifactId = 'image-preview-compose'
-                version = '1.2'
+                groupId = LIB_GROUP_ID
+                artifactId = LIB_ARTIFACT_ID
+                version = LIB_VERSION
 
                 artifact("$buildDir/outputs/aar/${project.name}-release.aar")
 
                 pom {
-                    name = 'Image Preview Compose'
-                    description = 'Image Preview Compose'
-                    url = 'https://github.com/trinityzhub/AndroidPublicLibrary'
+                    name = LIB_ARTIFACT_ID
+                    description = LIB_DESC
+                    url = LIB_URL
                 }
             }
         }
     }
+
+
+
 
 }
 

@@ -1,4 +1,4 @@
-package com.plcoding.androidlibrary
+package com.joe.androidlibrary
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,8 +10,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import com.plcoding.androidlibrary.ui.theme.AndroidLibraryTheme
-import com.plcoding.image_preview.ImagePreview
+import com.plcoding.androidlibrary.R
+import com.joe.androidlibrary.ui.theme.AndroidLibraryTheme
+import com.joe.droid.preview.ImagePreview
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

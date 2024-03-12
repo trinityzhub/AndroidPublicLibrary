@@ -1,4 +1,4 @@
-package com.plcoding.androidlibrary.ui.theme
+package com.joe.androidlibrary.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

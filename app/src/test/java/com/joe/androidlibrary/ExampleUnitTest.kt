@@ -1,4 +1,4 @@
-package com.plcoding.androidlibrary
+package com.joe.androidlibrary
 
 import org.junit.Test
 

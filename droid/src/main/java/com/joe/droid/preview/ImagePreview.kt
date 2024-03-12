@@ -1,4 +1,4 @@
-package com.plcoding.image_preview
+package com.joe.droid.preview
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
