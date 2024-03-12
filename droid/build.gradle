@@ -5,8 +5,8 @@ plugins {
 }
 
 def LIB_GROUP_ID = 'com.github.trinityzhub'
-def LIB_ARTIFACT_ID = "droid"
-def LIB_DESC = 'droid'
+def LIB_ARTIFACT_ID = "androidpubliclibrary"
+def LIB_DESC = 'androidpubliclibrary'
 def LIB_VERSION = '2.2.1'
 def LIB_URL  = 'https://github.com/trinityzhub/AndroidPublicLibrary'
 
