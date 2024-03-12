@@ -68,7 +68,7 @@ dependencies {
 
     //implementation 'com.github.philipplackner:AndroidLibrary:1.0'
     //implementation 'com.github.trinityzhub:AndroidPublicLibrary:1.1'
-    implementation 'com.github.trinityzhub:AndroidPublicLibrary:2.3.2'
+    implementation 'com.github.trinityzhub:AndroidPublicLibrary:2.3.5'
 
 
 }
