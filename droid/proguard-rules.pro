@@ -24,3 +24,4 @@
 # Add any specific rules for your project here
 -dontwarn
 -keep class com.joe.droid.model.** { *; }
+-keep class com.joe.droid.preview.** { *; }
