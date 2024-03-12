@@ -7,9 +7,9 @@ plugins {
 
 
 def LIB_GROUP_ID = 'com.github.trinityzhub'
-def LIB_ARTIFACT_ID = 'droid'
+def LIB_ARTIFACT_ID = "image-preview-compose"  //"droid"
 def LIB_DESC = 'droid'
-def LIB_VERSION = '2.0'
+def LIB_VERSION = '2.1'
 def LIB_URL  = 'https://github.com/trinityzhub/AndroidPublicLibrary'
 
 
